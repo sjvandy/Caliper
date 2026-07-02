@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B7843AF62FF63E1400C62A4F /* caliper */ = {
+		B7843AF62FF63E1400C62A4F /* Caliper */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = caliper;
+			path = Caliper;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		B7843AEB2FF63E1400C62A4F = {
 			isa = PBXGroup;
 			children = (
-				B7843AF62FF63E1400C62A4F /* caliper */,
+				B7843AF62FF63E1400C62A4F /* Caliper */,
 				B7843AF52FF63E1400C62A4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B7843AF62FF63E1400C62A4F /* caliper */,
+				B7843AF62FF63E1400C62A4F /* Caliper */,
 			);
 			name = caliper;
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B7843AEF2FF63E1400C62A4F /* Build configuration list for PBXProject "caliper" */;
+			buildConfigurationList = B7843AEF2FF63E1400C62A4F /* Build configuration list for PBXProject "Caliper" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -332,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B7843AEF2FF63E1400C62A4F /* Build configuration list for PBXProject "caliper" */ = {
+		B7843AEF2FF63E1400C62A4F /* Build configuration list for PBXProject "Caliper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B7843AFD2FF63E1500C62A4F /* Debug */,
