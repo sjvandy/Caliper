@@ -10,9 +10,22 @@
 		B7843AF42FF63E1400C62A4F /* caliper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caliper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B7843C052FF63E1400C62A4F /* Exceptions for "Caliper" folder in "caliper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B7843AF32FF63E1400C62A4F /* caliper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B7843AF62FF63E1400C62A4F /* Caliper */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B7843C052FF63E1400C62A4F /* Exceptions for "Caliper" folder in "caliper" target */,
+			);
 			path = Caliper;
 			sourceTree = "<group>";
 		};
@@ -65,6 +78,8 @@
 			);
 			name = caliper;
 			packageProductDependencies = (
+				B7843C032FF63E1400C62A4F /* CaliperKernel */,
+				B7843C042FF63E1400C62A4F /* CaliperUI */,
 			);
 			productName = caliper;
 			productReference = B7843AF42FF63E1400C62A4F /* caliper.app */;
@@ -94,6 +109,10 @@
 			);
 			mainGroup = B7843AEB2FF63E1400C62A4F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B7843C012FF63E1400C62A4F /* XCLocalSwiftPackageReference "Packages/CaliperKernel" */,
+				B7843C022FF63E1400C62A4F /* XCLocalSwiftPackageReference "Packages/CaliperUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B7843AF52FF63E1400C62A4F /* Products */;
 			projectDirPath = "";
@@ -254,6 +273,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Caliper/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -298,6 +318,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Caliper/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -330,6 +351,28 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		B7843C012FF63E1400C62A4F /* XCLocalSwiftPackageReference "Packages/CaliperKernel" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CaliperKernel;
+		};
+		B7843C022FF63E1400C62A4F /* XCLocalSwiftPackageReference "Packages/CaliperUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CaliperUI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B7843C032FF63E1400C62A4F /* CaliperKernel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CaliperKernel;
+		};
+		B7843C042FF63E1400C62A4F /* CaliperUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CaliperUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCConfigurationList section */
 		B7843AEF2FF63E1400C62A4F /* Build configuration list for PBXProject "Caliper" */ = {
